@@ -18,9 +18,11 @@
   },
   "dependencies": {
     "@mdi/js": "^7.4.47",
+    "@types/uuid": "^9.0.8",
     "@vueuse/core": "^10.7.2",
     "echarts": "^5.4.3",
     "pinia": "^2.1.7",
+    "uuid": "^9.0.1",
     "vue": "^3.4.15",
     "vue-echarts": "^6.6.8",
     "vue-router": "^4.2.5",

@@ -35,7 +35,7 @@ const toggleDark = useToggle<true, false | null>(isDark)
     <div class="mt-7 mr-2 d-flex">
       <v-btn
         icon
-        href="https://github.com/kingyue737/vitify-electron"
+        href="https://github.com/clazie/electron-ts-vuetify-bp/tree/main"
         size="small"
         class="ml-2"
         target="_blank"
