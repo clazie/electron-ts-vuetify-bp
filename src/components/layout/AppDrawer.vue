@@ -53,19 +53,12 @@ nextTick(() => {
           class="text-caption pt-6 pb-1 pt-md-0 text-center"
           style="white-space: nowrap"
         >
-          &copy; Copyright 2023
+          &copy; Copyright 2024
           <a
-            href="https://github.com/kingyue737"
+            href="https://github.com/clazi"
             class="font-weight-bold text-primary"
             target="_blank"
-            >Yue JIN</a
-          >
-          <span> & </span>
-          <a
-            href="https://www.nustarnuclear.com/"
-            class="font-weight-bold text-primary"
-            target="_blank"
-            >NuStar</a
+            >CZ</a
           >
         </div>
       </v-list-item>

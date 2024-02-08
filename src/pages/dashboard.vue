@@ -44,12 +44,12 @@ const stats = ref([
     caption: 'API has no response',
   },
   {
-    icon: 'mdi-currency-cny',
+    icon: 'mdi-currency-eur',
     title: 'Total Fee',
     value: 2300,
-    unit: '￥',
+    unit: '€',
     color: 'error',
-    caption: 'Upper Limit: 2000 ￥',
+    caption: 'Upper Limit: 2000 €',
   },
 ])
 </script>

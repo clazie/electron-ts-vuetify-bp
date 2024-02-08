@@ -2,7 +2,7 @@
   "name": "vitify-electron",
   "version": "0.1.0",
   "description": "🖖 Vite + Vuetify + Electron, Opinionated Starter Template",
-  "author": "Yue JIN <yuejin13@fudan.edu.cn>",
+  "author": "C. Zielke <info@czielke.de>",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@8.13.1",

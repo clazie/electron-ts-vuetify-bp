@@ -1,6 +1,6 @@
 import 'vuetify/styles'
 import { createVuetify, type IconSet, type IconProps } from 'vuetify'
-import { en, zhHans } from 'vuetify/locale'
+import { en, de } from 'vuetify/locale'
 import { aliases, mdi } from 'vuetify/iconsets/mdi-svg'
 import { useDark } from '@vueuse/core'
 import { md3 } from 'vuetify/blueprints'
@@ -36,9 +36,9 @@ const theme = {
 export default createVuetify({
   blueprint: md3,
   locale: {
-    locale: 'zhHans',
+    locale: 'de',
     fallback: 'en',
-    messages: { zhHans, en },
+    messages: { de, en },
   },
   defaults: {
     VSwitch: {

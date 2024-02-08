@@ -38,7 +38,7 @@ function toggleAll() {
       >
       </v-btn>
     </template>
-    <span>通知</span>
+    <span>Messages</span>
   </v-tooltip>
   <teleport to="#app">
     <v-card
@@ -50,13 +50,13 @@ function toggleAll() {
       <v-toolbar flat density="compact">
         <v-toolbar-title
           class="font-weight-light text-body-1"
-          :text="notifications.length ? '通知' : '没有新的通知'"
+          :text="notifications.length ? 'Message' : 'No new messages'"
         >
         </v-toolbar-title>
         <v-btn
           size="small"
           icon="mdi-bell-remove"
-          title="清空所有通知"
+          title="Clear all messages"
           @click="emptyNotifications"
         >
         </v-btn>
@@ -64,7 +64,7 @@ function toggleAll() {
           class="mr-0"
           size="small"
           icon="$expand"
-          title="隐藏"
+          title="Hide"
           @click="toggleAll"
         >
         </v-btn>
