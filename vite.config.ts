@@ -145,5 +145,8 @@ export default defineConfig(({ command }) => {
         inline: ['vuetify'],
       },
     },
+    define: {
+      'process.env': {}
+    }
   }
 })
