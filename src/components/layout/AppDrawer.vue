@@ -68,8 +68,9 @@ nextTick(() => {
 
 <style>
 .v-navigation-drawer {
-  transition-property: box-shadow, transform, visibility, width, height, left,
-    right, top, bottom, border-radius !important;
+  transition-property:
+    box-shadow, transform, visibility, width, height, left, right, top, bottom,
+    border-radius !important;
   overflow: hidden;
   border-width: 0px !important;
   &.v-navigation-drawer--rail {

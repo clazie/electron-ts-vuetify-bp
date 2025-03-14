@@ -17,7 +17,7 @@ const svgIcons = Object.fromEntries(
     import.meta.glob('@/assets/icons/*.svg', {
       eager: true,
       query: '?raw',
-      import: 'default'
+      import: 'default',
     }),
   ).map(([k, v]) => [filename(k), v]),
 )
